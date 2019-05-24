@@ -67,7 +67,7 @@ public class AutoClassNameMappingGenerator  {
 			                		stack.push(top);
 			                	token = token.substring(token.indexOf(")") + 1);
 			                } 			                
-		            		while (!stack.isEmpty()){
+		            		while (!stack.isEmpty()){ // loop though to get a new class name
 				                top=stack.pop();
 				                if(top.indexOf(")")>=0) {
 				                	if(!top.trim().equals(""))
@@ -84,8 +84,7 @@ public class AutoClassNameMappingGenerator  {
 				                	
 				                	startProcessingStackElements=true;
 				                	break;
-				                }
-				                if (top.indexOf("(")>=0) {
+				                } else if (top.indexOf("(")>=0) { // In this case new class name will be generated
 				                	nodeChildrenString = " " + top + nodeChildrenString;
 				                	top = top.substring(1); 
 				                	if(!top.trim().equals(""))
@@ -154,7 +153,6 @@ public class AutoClassNameMappingGenerator  {
             	top=stack.pop();
             	if (startAgain) { //If it is new parent and children nodes
             		startAgain = false;
-            	
 		            if(top.indexOf(")")>=0) {
 		            	nodeChildrenString = "";
 		            	parentFound = false;
