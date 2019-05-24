@@ -1,0 +1,17 @@
+(ROOT
+  (S
+    (PP (IN In)
+      (ADJP (JJ particular)))
+    (, ,)
+    (SBAR (IN as)
+      (S
+        (NP (DT the) (NN job) (NN market))
+        (VP (VBZ becomes)
+          (ADJP (JJ hot)))))
+    (, ,)
+    (NP (DT the) (NN labor) (NN cost))
+    (VP (VBZ has)
+      (VP (VBN doubled)
+        (PP (IN over)
+          (NP (DT the) (JJ last) (JJ several) (NNS years)))))
+    (. .)))

@@ -1,0 +1,38 @@
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (VBP 're)
+        (ADJP (JJ accustomed)
+          (PP (TO to)
+            (S
+              (VP (VBG operating)
+                (PP (IN with)
+                  (NP (JJ partial) (NN understanding)))))))))
+    (: :)
+    (S
+      (NP (PRP you))
+      (VP (VBP use)
+        (NP
+          (NP
+            (NP (PRP$ your) (NN car))
+            (, ,)
+            (CC and)
+            (NP (NN TV))
+            (, ,))
+          (CC and)
+          (NP
+            (NP (NN computer))
+            (, ,)
+            (CC and)
+            (NP (NN Internet))
+            (, ,)))
+        (PP (IN without)
+          (S
+            (VP (VBG understanding)
+              (SBAR
+                (WHADVP (RB exactly) (WRB how))
+                (S
+                  (NP (PRP they))
+                  (VP (VBP work)))))))))
+    (. .)))

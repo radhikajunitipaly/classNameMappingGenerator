@@ -1,0 +1,43 @@
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (DT the) (VBN selected) (NN car))
+        (VP (VBZ is) (RB not)
+          (ADJP (JJ available)))))
+    (, ,)
+    (NP (DT the) (NN system))
+    (VP (MD should)
+      (VP
+        (VP (VB display)
+          (NP
+            (NP (DT a) (NN message))
+            (VP (VBG telling)
+              (NP (DT the) (NN customer))
+              (SBAR (IN that)
+                (S
+                  (NP (DT the) (NN car))
+                  (VP (VBZ is)
+                    (VP (VBG rented)
+                      (PRT (RP out)))))))))
+        (CC and)
+        (VP (VB let)
+          (S
+            (NP (DT the) (NN customer))
+            (VP (VB select)
+              (S
+                (NP (DT another))
+                (VP (VB make)
+                  (CC and)
+                  (VB model))))))
+        (, ,)
+        (CC or)
+        (VP (VB have)
+          (S
+            (NP (DT the) (NN system))
+            (VP (VB suggest)
+              (NP
+                (NP (JJ similar) (NNS models))
+                (PP (IN of)
+                  (NP (DT a) (JJ different) (NN make)))))))))
+    (. .)))

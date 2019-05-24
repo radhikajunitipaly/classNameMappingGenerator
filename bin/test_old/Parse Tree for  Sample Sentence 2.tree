@@ -1,0 +1,19 @@
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (DT the) (NN business))
+        (VP (VBZ has)
+          (VP (VBN grown)
+            (ADVP (RB rapidly))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NNS costs))
+      (PP (IN of)
+        (S
+          (VP (VBG running)
+            (NP (PRP$ its) (NN business))))))
+    (VP (VBZ has)
+      (ADVP (RB also))
+      (VP (VBN increased)))
+    (. .)))

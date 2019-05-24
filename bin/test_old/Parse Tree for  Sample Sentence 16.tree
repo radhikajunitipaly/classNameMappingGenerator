@@ -1,0 +1,17 @@
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT the) (NN customer))
+        (VP (VBZ pays)
+          (PP (IN by)
+            (NP (DT a) (NN credit) (NN card))))))
+    (, ,)
+    (NP (DT the) (JJ rental) (NN charge))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN processed)
+          (PP (IN through)
+            (NP (DT a) (NN credit) (NN card) (VBG processing) (NN company))))))
+    (. .)))

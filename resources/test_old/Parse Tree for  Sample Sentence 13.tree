@@ -1,0 +1,19 @@
+(ROOT
+  (S
+    (ADVP (RB Currently))
+    (, ,)
+    (NP (NNS customers))
+    (VP (VBP make)
+      (NP (NNS reservations))
+      (PP
+        (PP
+          (ADVP (RB directly))
+          (IN with)
+          (NP (DT the) (NN car) (NN rental) (NN company)))
+        (CC either)
+        (PP (IN in)
+          (NP (NN person)))
+        (CC or)
+        (PP (IN through)
+          (NP (DT the) (NN phone)))))
+    (. .)))

@@ -1,0 +1,34 @@
+(ROOT
+  (S
+    (S
+      (ADVP (RB Normally))
+      (NP (DT a) (NN customer))
+      (VP (MD will)
+        (VP (VB settle)
+          (NP (DT the) (NN invoice))
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (DT the) (NN car))
+              (VP (VBZ is)
+                (VP (VBN returned))))))))
+    (CC but)
+    (S (, ,)
+      (PP (IN in)
+        (NP (DT some) (NNS cases)))
+      (, ,)
+      (NP (DT the) (NN invoice))
+      (VP (MD must)
+        (VP (VB be)
+          (VP (VBN sent)
+            (PP (TO to)
+              (NP
+                (NP (DT a) (NN company))
+                (PRN (-LRB- -LRB-)
+                  (PP (JJ such)
+                    (PP (IN as)
+                      (NP
+                        (NP (DT the) (NN customer) (POS 's))
+                        (NN employer))))
+                  (-RRB- -RRB-))))))))
+    (. .)))

@@ -1,0 +1,18 @@
+(ROOT
+  (S
+    (SBAR (IN Since)
+      (S
+        (NP (DT the) (NN company))
+        (VP
+          (VP (VBZ has)
+            (NP (DT a) (JJ great) (NN business) (NN model)))
+          (CC and)
+          (VP (VBZ provides)
+            (NP (JJ customer-friendly) (NN service))))))
+    (, ,)
+    (NP (PRP$ its) (NN business))
+    (VP (VBZ has)
+      (VP (VBN boomed)
+        (PP (IN over)
+          (NP (DT the) (JJ last) (JJ several) (NNS years)))))
+    (. .)))

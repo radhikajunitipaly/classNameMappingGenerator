@@ -1,0 +1,41 @@
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP (DT the) (NN company))
+        (VP (VBZ is)
+          (ADJP
+            (PRN (, ,)
+              (PP (IN at)
+                (ADJP (JJ present)))
+              (, ,))
+            (JJ concerned))
+          (ADVP (RB only))
+          (PP (IN with)
+            (NP (NN passenger) (NNS cars))))))
+    (, ,)
+    (NP (PRP it))
+    (VP
+      (VP (MD may)
+        (VP (VB branch)
+          (PRT (RP out))
+          (PP (IN into)
+            (NP
+              (NP (JJ other) (NNS forms))
+              (PP (IN of)
+                (NP
+                  (NP (NN vehicle) (NNS rentals))
+                  (PP (IN in)
+                    (NP (DT the) (NN future)))))))))
+      (CC and)
+      (VP (MD would)
+        (VP (VB like)
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (ADJP (JJ able)
+                  (S
+                    (VP (TO to)
+                      (VP (VB use)
+                        (NP (DT the) (JJ same) (NN reservation) (NN system))))))))))))
+    (. .)))

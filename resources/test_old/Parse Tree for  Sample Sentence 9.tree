@@ -1,0 +1,22 @@
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN customer))
+      (VP (MD must)
+        (VP (VB be)
+          (ADJP (JJ able)
+            (S
+              (VP (TO to)
+                (VP (VB select)
+                  (NP
+                    (NP (DT the) (NN make))
+                    (CC and)
+                    (NP (DT the) (NN model))))))))))
+    (NP (PRP he)
+      (CC or)
+      (PRP she))
+    (VP (VBZ wants)
+      (S
+        (VP (TO to)
+          (VP (VB rent)))))
+    (. .)))

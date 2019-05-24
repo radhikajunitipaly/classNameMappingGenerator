@@ -1,0 +1,40 @@
+(ROOT
+  (S
+    (NP (DT A) (NN car))
+    (VP (MD may)
+      (CC or)
+      (MD may) (RB not)
+      (VP (VB be)
+        (ADJP (JJ available)
+          (PP (IN for)
+            (NP
+              (NP (NN rental))
+              (PP (IN on)
+                (NP (DT a) (VBN given) (NN day))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (JJ Rental) (NNS cars))
+      (VP (VBP need)
+        (NP (JJ frequent) (NN preventive) (NN maintenance))))
+    (CC and)
+    (, ,)
+    (S
+      (PP (IN in)
+        (NP (NN addition)))
+      (, ,)
+      (NP
+        (NP (DT any) (NN damage))
+        (PP (TO to)
+          (NP (DT a) (NN car))))
+      (VP (VBZ has)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (VP (VBN repaired)
+                (ADVP (RB as) (RB soon))
+                (PP (IN as)
+                  (ADJP (JJ possible)))))))))
+    (. .)))

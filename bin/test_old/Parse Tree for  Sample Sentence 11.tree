@@ -1,0 +1,12 @@
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (`` ``) (JJ daily) (JJ unlimited) (NNS miles) (NN plan) ('' ''))
+        (CC and)
+        (NP (DT a) (`` ``) (NN weekend) (CD 10) (NN %) (NN discount) (NN plan))))
+    (. .) ('' '')))

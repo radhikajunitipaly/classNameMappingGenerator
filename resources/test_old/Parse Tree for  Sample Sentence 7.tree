@@ -1,0 +1,15 @@
+(ROOT
+  (S
+    (NP (DT The) (NN company))
+    (VP (VBZ has)
+      (NP
+        (NP (JJ several) (JJ different) (NNS makes))
+        (PP (IN of)
+          (NP
+            (NP (NNS cars))
+            (PP (IN in)
+              (NP (PRP$ its) (JJ rental) (NN fleet))))))
+      (, ,)
+      (PP (IN from)
+        (NP (JJ different) (NNS manufacturers))))
+    (. .)))

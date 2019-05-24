@@ -1,0 +1,21 @@
+(ROOT
+  (S
+    (NP (NNPS Vehicles))
+    (VP (MD can)
+      (VP (VB be)
+        (VP
+          (VP (VBN taken)
+            (PP (IN from)
+              (NP (CD one) (NN location))))
+          (CC and)
+          (VP (VBN returned)
+            (PP
+              (PP (TO to)
+                (NP (DT the) (JJ same) (NN location)))
+              (CC or)
+              (PP (TO to)
+                (NP
+                  (NP (DT a) (JJ different) (NN location))
+                  (PP (IN with)
+                    (NP (DT an) (JJ additional) (NN charge))))))))))
+    (. .)))

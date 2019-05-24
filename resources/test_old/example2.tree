@@ -1,0 +1,9 @@
+(ROOT
+  (S (ADVP (RB )) (, ,) (NP (NNS )) (VP (VBP ) (NP (NNS )) 
+  	 (PP (PP (ADVP (RB )) (IN ) (NP (DT ) (NN ) (NN ) (NN )))
+         (CC )
+         (PP (IN ) (NP (NN )))
+         (CC )
+         (PP (IN ) (NP (DT ) (NN )))))
+    (. .)
+    ))

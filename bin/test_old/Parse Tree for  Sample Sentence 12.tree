@@ -1,0 +1,36 @@
+(ROOT
+  (S
+    (NP (DT The) (NN company))
+    (VP (VBZ finds)
+      (S
+        (NP (PRP it))
+        (ADJP (JJ important)
+          (S
+            (VP (TO to)
+              (VP (VB have)
+                (S
+                  (NP (NN information))
+                  (ADJP (JJ available)
+                    (PP (IN on)
+                      (NP
+                        (NP (DT the) (NNS models))
+                        (PP (IN of)
+                          (NP (NN car)))
+                        (, ,)
+                        (PP (JJ such) (IN as)
+                          (NP
+                            (NP
+                              (ADJP (JJ automatic)
+                                (CC or)
+                                (JJ manual))
+                              (NN gear) (NN change))
+                            (, ,)
+                            (NP (CD two))
+                            (CC or)
+                            (NP (CD four) (NNS doors))
+                            (, ,)
+                            (CC and)
+                            (NP (NN sedan)
+                              (CC or)
+                              (NN hatchback))))))))))))))
+    (. .)))

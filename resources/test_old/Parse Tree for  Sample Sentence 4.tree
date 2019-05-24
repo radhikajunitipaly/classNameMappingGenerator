@@ -1,0 +1,21 @@
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN description))
+      (VP (VBZ is) (RB not)
+        (VP (VBN meant)
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (ADJP (JJ complete))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (DT the) (NN company))
+      (VP (VBZ is)
+        (ADJP (JJ flexible) (RB enough)
+          (S
+            (VP (TO to)
+              (VP (VB consider)
+                (NP (DT any) (JJ good) (NN improvement) (NNS proposals))))))))
+    (. .)))

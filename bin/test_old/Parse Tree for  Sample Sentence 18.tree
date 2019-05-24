@@ -1,0 +1,28 @@
+(ROOT
+  (S
+    (NP (DT The) (NN company))
+    (VP (VBZ wants)
+      (S
+        (VP (TO to)
+          (VP (VB keep)
+            (NP
+              (NP (NN track))
+              (PP (IN of)
+                (NP (DT the) (JJ rental) (NN car) (NN purchase) (, ,) (NN repair) (, ,) (NN maintenance) (, ,)
+                  (CC and)
+                  (NN disposal) (NN information))))
+            (PP (IN for)
+              (NP
+                (NP (NN business)
+                  (CC and)
+                  (NN tax) (NNS purposes))
+                (PRN (-LRB- -LRB-)
+                  (NP
+                    (NP (NNP e.g.))
+                    (, ,)
+                    (NP
+                      (NP (NN depreciation))
+                      (PP (IN of)
+                        (NP (DT the) (JJ rental) (NNS cars)))))
+                  (-RRB- -RRB-))))))))
+    (. .)))

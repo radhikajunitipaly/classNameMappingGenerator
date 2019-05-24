@@ -1,0 +1,16 @@
+(ROOT
+  (S
+    (ADVP (RB As) (RB soon)
+      (SBAR (IN as)
+        (S
+          (NP (DT a) (NN car))
+          (VP (VBZ is)
+            (VP (VBN checked)
+              (PRT (RP out))
+              (PP (TO to)
+                (NP (DT a) (NN customer))))))))
+    (, ,)
+    (NP (DT an) (NN invoice))
+    (VP (VBZ is)
+      (VP (VBN opened)))
+    (. .)))

@@ -1,0 +1,34 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN computer) (NN reservation) (NN system)
+        (CC or)
+        (JJ central) (NN reservation) (NN system))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP CRS))
+        (-RRB- -RRB-)))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ computerized) (NN system))
+        (VP (VBN used)
+          (S
+            (VP (TO to)
+              (VP (VB store)
+                (CC and)
+                (VB retrieve)
+                (NP
+                  (NP (NN information)
+                    (CC and)
+                    (NN conduct) (NNS transactions))
+                  (VP (VBN related)
+                    (PP (TO to)
+                      (NP
+                        (NP (NN air) (NN travel))
+                        (, ,)
+                        (NP (NNS hotels))
+                        (, ,)
+                        (NP (NN car) (NN rental))
+                        (, ,)
+                        (CC or)
+                        (NP (JJ other) (NNS activities))))))))))))
+    (. .)))

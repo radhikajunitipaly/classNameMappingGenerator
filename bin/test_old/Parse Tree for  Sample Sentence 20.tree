@@ -1,0 +1,32 @@
+(ROOT
+  (S
+    (NP
+      (NP (JJ Pattern-matching) (NN programming) (NNS languages))
+      (PP (JJ such) (IN as)
+        (NP (NNP Perl)
+          (CC and)
+          (NNP Python))))
+    (VP (VBP derive)
+      (NP
+        (NP (RB much))
+        (PP (IN of)
+          (NP (PRP$ their) (NN power))))
+      (PP (IN from)
+        (NP (PRP$ their) (JJ built-in) (NN string) (VBG matching) (NNS primitives)))
+      (, ,)
+      (S
+        (VP (VBG making)
+          (S
+            (NP (PRP it))
+            (ADJP (JJ easy)
+              (PP (TO to)
+                (NP
+                  (NP (NN fashion) (NNS programs))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VB filter)
+                        (CC and)
+                        (VB modify)
+                        (NP (NN text))))))))))))
+    (. .)))

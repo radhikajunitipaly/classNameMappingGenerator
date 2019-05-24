@@ -1,0 +1,15 @@
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)
+    (NP (NNP Toyota))
+    (VP (VBZ has)
+      (NP
+        (NP (NNP Corolla))
+        (, ,)
+        (NP (NNP Camry))
+        (, ,)
+        (CC and)
+        (NP (JJR more))))
+    (. .)))
