@@ -93,7 +93,6 @@ public class FileHelper extends BaseHelper {
 		
 		Path currentRelativePath = Paths.get("");
 		String absolutePath = currentRelativePath.toAbsolutePath().toString();
-		System.out.println("Current relative path is: " + absolutePath);
 		
 		final File outputRootDir = new File(absolutePath+"/resources/"+folderName);
 		return outputRootDir;

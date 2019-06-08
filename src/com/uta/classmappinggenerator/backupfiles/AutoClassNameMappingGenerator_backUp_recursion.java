@@ -1,4 +1,4 @@
-package com.uta.classmappinggenerator.core;
+package com.uta.classmappinggenerator.backupfiles;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 
 import com.uta.classmappinggenerator.util.FileHelper;
 
-public class AutoClassNameMappingGenerator  {
+public class AutoClassNameMappingGenerator_backUp_recursion  {
 	
 	ClassLoader classLoader = getClass().getClassLoader();	
 	File folder = new File(classLoader.getResource("test").getFile());
@@ -101,16 +101,13 @@ public class AutoClassNameMappingGenerator  {
 		            		if(!startProcessingStackElements) {
 		            			System.out.println("nodeChildrenString is "+nodeChildrenString);
 		            			writeToFile(nodeChildrenString);
-		            			String lastElementOfStack = stack.pop();
-		            			while(lastElementOfStack.indexOf(")")>=0) {
-		            				stack.push(lastElementOfStack);
-		            				resolveAllPossibleParentChildrenNodes(stack); //resolve parents to the possible level
-		            				lastElementOfStack = stack.pop();
-		            			} 
-		            			if(lastElementOfStack.indexOf(")")<0){
-		            				stack.push(lastElementOfStack);
-		            			}
-		            		} 		            		
+		            		} else {
+		            			if(diffOfNumberOfClosingAndOpeningbraces()==0)
+		            				startProcessingRemainingStackElements(null); // non-leaf nodes processing
+		            			else
+		            				throw new Exception("Sorry something went wrong!!");
+		            		}
+		            		
 		            	} else if(countClosedBrace==1) { //not end of children
 		            		top=stack.pop();
 			                if (top.indexOf("(")>=0) {
@@ -138,7 +135,7 @@ public class AutoClassNameMappingGenerator  {
 		
 	}
 	
-	private void resolveAllPossibleParentChildrenNodes(Stack<String> stackToProcess) {
+	private void startProcessingRemainingStackElements(Stack<String> passedStack) {
 		//System.out.println("stack is "+stack);
 		String top="";
 		String tempTop="";
@@ -146,6 +143,7 @@ public class AutoClassNameMappingGenerator  {
 		int countClosedBrace = 0;
 		boolean parentFound = false;
 		boolean startAgain = true;
+		Stack<String> stackTemp=new Stack<String>();
 		
 		while (!stack.isEmpty()){
 			
@@ -166,16 +164,29 @@ public class AutoClassNameMappingGenerator  {
 		            		tempTop = "";
 		            		continue;
 		            	} 
+		            	
+		            }
+            	} else { // If the processing is for the same node of parent and children
+            		if(top.indexOf(")")>=0) {
+            			nodeChildrenString = "";
+		            	parentFound = false;
+		            	stack.push(top);
+		            	stackTemp = addBracesToBottomOfPresentStack(tempTop, stackTemp);
+		            	startProcessingRemainingStackElements(stackTemp);
 		            } 
-            	} else {
             		if (top.indexOf("(")>=0) {
 		            	parentFound = true;
 		            	startAgain = true;
 		            	
 		            	nodeChildrenString = " " + top + nodeChildrenString;
+		            	if(!stack.isEmpty() && stack.size() == 1 && !nodeChildrenString.contains(".")) {
+		            		System.out.println("nodeChildrenString is "+nodeChildrenString+" (.");
+		            		writeToFile(nodeChildrenString+" (.");
+		            	} else {
+		            		System.out.println("nodeChildrenString is "+nodeChildrenString);
+		            		writeToFile(nodeChildrenString);
+		            	}
 		            	
-	            		System.out.println("nodeChildrenString is "+nodeChildrenString);
-	            		writeToFile(nodeChildrenString);
 		            	
 		            	top = top.substring(1); 
 		            	stack.push(top);	
@@ -183,15 +194,36 @@ public class AutoClassNameMappingGenerator  {
 		            	if(!tempTop.equals("")) {
 		        			stack.push(tempTop);
 		        		}
+		            	if(passedStack!=null) {
+				            for(String node:passedStack) {
+				            	if(node.contains(")")) {
+				            		while(!passedStack.isEmpty())
+				            			stack.push(passedStack.pop());
+				            		break;
+				            	}
+			            	}
+				            passedStack.removeAllElements();
+		            	}
 		            	
+		            	if(stackTemp!=null) {
+				            for(String node:stackTemp) {
+				            	if(node.contains(")")) {
+				            		while(!stackTemp.isEmpty())
+				            			stack.push(stackTemp.pop());
+				            		break;
+				            	}
+			            	}
+				            stackTemp.removeAllElements();
+		            	}
 		            	
 		            } else if (top.indexOf("(")<0 && top.indexOf(")")<0 ){
+		            	stackTemp.push(top);
 		            	nodeChildrenString = " (" + top + nodeChildrenString;
 		            	continue;
 		            }
 		            if(!parentFound && !top.contains(")") && !top.contains("("))
 		            	nodeChildrenString = " (" + top + nodeChildrenString;
-            	} 
+            	}
             }
         }
 		//System.out.println("End of method");	
@@ -206,6 +238,55 @@ public class AutoClassNameMappingGenerator  {
 		
 		fileHelper.saveToFile(content, "result", outputFilename, "UTF-8");
 
+	}
+
+	private int diffOfNumberOfClosingAndOpeningbraces() {
+		Stack<String> stackForReplacement=new Stack<String>();
+		String node="";
+		int len = 0;
+		int openingBrace = 0;
+		int closingBrace = 0;
+		while(!stack.isEmpty()) {
+			node = stack.pop();
+			stackForReplacement.push(node);
+			len = node.length();
+			if(node.contains("(")) {
+		        for (int i = 0; i < len; i++) {  
+					if (node.charAt(i) == '(')  
+						openingBrace++;                  
+		        }
+			}
+			if(node.contains(")")) {
+		        for (int i = 0; i < len; i++) {  
+					if (node.charAt(i) == ')')  
+						closingBrace++;                  
+		        }
+			}
+		}
+		while(!stackForReplacement.isEmpty()) {
+			node = stackForReplacement.pop();
+			stack.push(node);
+		}
+		return openingBrace-closingBrace;
+	}
+
+	private Stack<String> addBracesToBottomOfPresentStack(String tempTop, Stack<String> stackTemp) {
+		Stack<String> stackForReplacement=new Stack<String>();
+		String tempNode = "";
+		if(tempTop.contains(")")) {
+			while(!stackTemp.isEmpty()) {
+				tempNode = stackTemp.pop();
+				stackForReplacement.push(tempNode);
+			}
+			
+			stackTemp.push(tempTop+")");
+			while(!stackForReplacement.isEmpty()) {
+				tempNode = stackForReplacement.pop();
+				stackTemp.push(tempNode);
+			}
+		}
+			
+		return stackTemp;
 	}
 
 	private boolean stackStillHasClosingBrace() {
@@ -239,6 +320,7 @@ public class AutoClassNameMappingGenerator  {
 				e.printStackTrace();
 			}
 		}
+		
 		for (final File file : folder.listFiles()) {
 			if (file.isDirectory()) {
 				getFileToProcess(file);
@@ -258,8 +340,8 @@ public class AutoClassNameMappingGenerator  {
 	
 	 public static void main(String[] args){
 		 
-		 AutoClassNameMappingGenerator classNameMappingGenerator = new AutoClassNameMappingGenerator();
-		 AutoClassNameMappingGenerator.getFileToProcess(classNameMappingGenerator.folder);
+		 AutoClassNameMappingGenerator_backUp_recursion classNameMappingGenerator = new AutoClassNameMappingGenerator_backUp_recursion();
+		 AutoClassNameMappingGenerator_backUp_recursion.getFileToProcess(classNameMappingGenerator.folder);
 		 classNameMappingGenerator.classnameMapping();
 	 }
 

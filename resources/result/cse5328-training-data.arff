@@ -108,3 +108,514 @@
 '(ADVP (RB (RB (SBAR', unclassifiedTag
 '(S (ADVP (, (NP (VP (.', unclassifiedTag
 '(ROOT (S', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(NP (JJ (NN', unclassifiedTag
+'(NP (PRP$ (NN', unclassifiedTag
+'(NP (DT (JJ (JJ (NNS', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(VP (VBZ (VP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(VP (VP (CC (VP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(S (SBAR (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(ADVP (RB', unclassifiedTag
+'(NP (DT (NNS', unclassifiedTag
+'(NP (PRP$ (NN', unclassifiedTag
+'(ADVP (RB', unclassifiedTag
+'(VP (VBN', unclassifiedTag
+'(VP (VBZ (ADVP (VP', unclassifiedTag
+'(VP (VBG (NP', unclassifiedTag
+'(S (VP', unclassifiedTag
+'(PP (IN (S', unclassifiedTag
+'(NP (NP (PP', unclassifiedTag
+'(VP (VBN (ADVP', unclassifiedTag
+'(VP (VBZ (VP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(S (SBAR (, (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (NN', unclassifiedTag
+'(NP (EX', unclassifiedTag
+'(NP (DT (`` (JJ (JJ (NNS (NN (''', unclassifiedTag
+'(NP (DT (`` (NN (CD (NN (NN (NN', unclassifiedTag
+'(NP (NP (CC (NP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(S (PP (, (NP (VP (.  (''', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (PRP', unclassifiedTag
+'(NP (NN', unclassifiedTag
+'(NP (DT (NNS', unclassifiedTag
+'(NP (NN', unclassifiedTag
+'(ADJP (JJ (CC (JJ', unclassifiedTag
+'(NP (ADJP (NN (NN', unclassifiedTag
+'(NP (CD', unclassifiedTag
+'(NP (CD (NNS', unclassifiedTag
+'(NP (NN (CC (NN', unclassifiedTag
+'(NP (NP (, (NP (CC (NP (, (CC (NP', unclassifiedTag
+'(PP (JJ (IN (NP', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(NP (NP (PP (, (PP', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(ADJP (JJ (PP', unclassifiedTag
+'(S (NP (ADJP', unclassifiedTag
+'(VP (VB (S', unclassifiedTag
+'(VP (TO (VP', unclassifiedTag
+'(S (VP', unclassifiedTag
+'(ADJP (JJ (S', unclassifiedTag
+'(S (NP (ADJP', unclassifiedTag
+'(VP (VBZ (S', unclassifiedTag
+'(S (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(ADVP (RB', unclassifiedTag
+'(NP (NNS', unclassifiedTag
+'(NP (NNS', unclassifiedTag
+'(ADVP (RB', unclassifiedTag
+'(NP (DT (NN (NN (NN', unclassifiedTag
+'(NP (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(PP (ADVP (IN (NP', unclassifiedTag
+'(PP (PP (CC (PP (CC (PP', unclassifiedTag
+'(VP (VBP (NP (PP', unclassifiedTag
+'(S (ADVP (, (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (VBN (NN', unclassifiedTag
+'(ADJP (JJ', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(PRT (RP', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT', unclassifiedTag
+'(VP (VB (CC (VB', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (JJ (NNS', unclassifiedTag
+'(NP (DT (JJ (NN', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(NP (NP (PP', unclassifiedTag
+'(VP (VB (NP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(VP (VB (S', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(VP (VB (S', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(VP (VB (S', unclassifiedTag
+'(VP (VBG (PRT', unclassifiedTag
+'(VP (VBZ (VP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(VP (VBG (NP (SBAR', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VB (NP', unclassifiedTag
+'(VP (VP (CC (VP (, (CC (VP', unclassifiedTag
+'(VP (MD (VP', unclassifiedTag
+'(VP (VBZ (RB (ADJP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(S (SBAR (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (VBN (NN', unclassifiedTag
+'(ADJP (JJ', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(PRT (RP', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT', unclassifiedTag
+'(VP (VB (CC (VB', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (JJ (NNS', unclassifiedTag
+'(NP (DT (JJ (NN', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(NP (NP (PP', unclassifiedTag
+'(VP (VB (NP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(VP (VB (S', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(VP (VB (S', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(VP (VB (S', unclassifiedTag
+'(VP (VBG (PRT', unclassifiedTag
+'(VP (VBZ (VP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(VP (VBG (NP (SBAR', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VB (NP', unclassifiedTag
+'(VP (VP (CC (VP (, (CC (VP', unclassifiedTag
+'(VP (MD (VP', unclassifiedTag
+'(VP (VBZ (RB (ADJP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(S (SBAR (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN (NN (NN (CC (JJ (NN (NN', unclassifiedTag
+'(NP (NNP', unclassifiedTag
+'(PRN (-LRB- (NP (-RRB-', unclassifiedTag
+'(NP (DT (JJ (NN', unclassifiedTag
+'(NP (NN (CC (NN (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (JJ (NNS', unclassifiedTag
+'(NP (NP (, (NP (, (NP (, (CC (NP', unclassifiedTag
+'(PP (TO (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VB (CC (VB (NP', unclassifiedTag
+'(VP (TO (VP', unclassifiedTag
+'(S (VP', unclassifiedTag
+'(VP (VBN (S', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(NP (NP (PRN', unclassifiedTag
+'(S (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN (NN (NN (CC (JJ (NN (NN', unclassifiedTag
+'(NP (NNP', unclassifiedTag
+'(PRN (-LRB- (NP (-RRB-', unclassifiedTag
+'(NP (DT (JJ (NN', unclassifiedTag
+'(NP (NN (CC (NN (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (JJ (NNS', unclassifiedTag
+'(NP (NP (, (NP (, (NP (, (CC (NP', unclassifiedTag
+'(PP (TO (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VB (CC (VB (NP', unclassifiedTag
+'(VP (TO (VP', unclassifiedTag
+'(S (VP', unclassifiedTag
+'(VP (VBN (S', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(NP (NP (PRN', unclassifiedTag
+'(S (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN (NN (NN (CC (JJ (NN (NN', unclassifiedTag
+'(NP (NNP', unclassifiedTag
+'(PRN (-LRB- (NP (-RRB-', unclassifiedTag
+'(NP (DT (JJ (NN', unclassifiedTag
+'(NP (NN (CC (NN (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (JJ (NNS', unclassifiedTag
+'(NP (NP (, (NP (, (NP (, (CC (NP', unclassifiedTag
+'(PP (TO (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VB (CC (VB (NP', unclassifiedTag
+'(VP (TO (VP', unclassifiedTag
+'(S (VP', unclassifiedTag
+'(VP (VBN (S', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(NP (NP (PRN', unclassifiedTag
+'(S (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(NP (JJ (NN', unclassifiedTag
+'(NP (PRP$ (NN', unclassifiedTag
+'(NP (DT (JJ (JJ (NNS', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(VP (VBZ (VP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(VP (VP (CC (VP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(S (SBAR (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(NP (JJ (NN', unclassifiedTag
+'(NP (PRP$ (NN', unclassifiedTag
+'(NP (DT (JJ (JJ (NNS', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(NP (JJ (NN', unclassifiedTag
+'(NP (PRP$ (NN', unclassifiedTag
+'(NP (DT (JJ (JJ (NNS', unclassifiedTag
+'(.', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(VP ()', unclassifiedTag
+'(NP (JJ (NN', unclassifiedTag
+'(VP ())))', unclassifiedTag
+'(NP (PRP$ (NN', unclassifiedTag
+'(NP (DT (JJ (JJ (NNS', unclassifiedTag
+'(PP ()))', unclassifiedTag
+'(VP (VBN (.', unclassifiedTag
+'(VP ()', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(NP (JJ (NN', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(NP (PRP$ (NN', unclassifiedTag
+'(NP (DT (JJ (JJ (NNS', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(VP (VBN (.', unclassifiedTag
+'(VP (VBZ (VP', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(NP (JJ (NN', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(VP (VP (CC (VP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(NP (PRP$ (NN', unclassifiedTag
+'(NP (DT (JJ (JJ (NNS', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(VP (VBZ (VP', unclassifiedTag
+'(S (SBAR (, (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN (NN (NN (CC (JJ (NN (NN', unclassifiedTag
+'(NP (NNP', unclassifiedTag
+'(PRN (-LRB- (NP (-RRB-', unclassifiedTag
+'(NP (NP (PRN', unclassifiedTag
+'(NP (DT (JJ (NN', unclassifiedTag
+'(NP (NN (CC (NN (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (JJ (NNS', unclassifiedTag
+'(NP (NP (, (NP (, (NP (, (CC (NP', unclassifiedTag
+'(PP (TO (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VB (CC (VB (NP', unclassifiedTag
+'(VP (TO (VP', unclassifiedTag
+'(S (VP', unclassifiedTag
+'(VP (VBN (S', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(S (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(NP (JJ (NN', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(VP (VP (CC (VP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(NP (PRP$ (NN', unclassifiedTag
+'(NP (DT (JJ (JJ (NNS', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(VP (VBZ (VP', unclassifiedTag
+'(S (SBAR (, (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (VBN (NN', unclassifiedTag
+'(ADJP (JJ', unclassifiedTag
+'(VP (VBZ (RB (ADJP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(PRT (RP', unclassifiedTag
+'(VP (VBG (PRT', unclassifiedTag
+'(VP (VBZ (VP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(VP (VBG (NP (SBAR', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VB (NP', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT', unclassifiedTag
+'(VP (VB (CC (VB', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(VP (VB (S', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(VP (VB (S', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (JJ (NNS', unclassifiedTag
+'(NP (DT (JJ (NN', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(NP (NP (PP', unclassifiedTag
+'(VP (VB (NP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(VP (VB (S', unclassifiedTag
+'(VP (VP (CC (VP (, (CC (VP', unclassifiedTag
+'(VP (MD (VP', unclassifiedTag
+'(S (SBAR (, (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (VBN (NN', unclassifiedTag
+'(ADJP (JJ', unclassifiedTag
+'(NP (DT (VBN (NN', unclassifiedTag
+'(ADJP (JJ', unclassifiedTag
+'(VP (VBZ (RB (ADJP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(PRT (RP', unclassifiedTag
+'(VP (VBG (PRT', unclassifiedTag
+'(VP (VBZ (VP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(VP (VBG (NP (SBAR', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VB (NP', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT', unclassifiedTag
+'(VP (VB (CC (VB', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(VP (VB (S', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(VP (VB (S', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (JJ (NNS', unclassifiedTag
+'(NP (DT (JJ (NN', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(NP (NP (PP', unclassifiedTag
+'(VP (VB (NP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(VP (VB (S', unclassifiedTag
+'(VP (VP (CC (VP (, (CC (VP', unclassifiedTag
+'(VP (MD (VP', unclassifiedTag
+'(S (SBAR (, (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(NP (JJ (NN', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(VP (VP (CC (VP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(NP (PRP$ (NN', unclassifiedTag
+'(NP (DT (JJ (JJ (NNS', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(VP (VBZ (VP', unclassifiedTag
+'(S (SBAR (, (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN (NN (NN (CC (JJ (NN (NN', unclassifiedTag
+'(NP (NNP', unclassifiedTag
+'(PRN (-LRB- (NP (-RRB-', unclassifiedTag
+'(NP (NP (PRN', unclassifiedTag
+'(NP (DT (JJ (NN', unclassifiedTag
+'(NP (NN (CC (NN (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (JJ (NNS', unclassifiedTag
+'(NP (NP (, (NP (, (NP (, (CC (NP', unclassifiedTag
+'(PP (TO (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VB (CC (VB (NP', unclassifiedTag
+'(VP (TO (VP', unclassifiedTag
+'(S (VP', unclassifiedTag
+'(VP (VBN (S', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(S (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN (NN (NN (CC (JJ (NN (NN', unclassifiedTag
+'(NP (NNP', unclassifiedTag
+'(PRN (-LRB- (NP (-RRB-', unclassifiedTag
+'(NP (NP (PRN', unclassifiedTag
+'(NP (DT (JJ (NN', unclassifiedTag
+'(NP (NN (CC (NN (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (JJ (NNS', unclassifiedTag
+'(NP (NP (, (NP (, (NP (, (CC (NP', unclassifiedTag
+'(PP (TO (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VB (CC (VB (NP', unclassifiedTag
+'(VP (TO (VP', unclassifiedTag
+'(S (VP', unclassifiedTag
+'(VP (VBN (S', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(S (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN (NN (NN (CC (JJ (NN (NN', unclassifiedTag
+'(NP (NNP', unclassifiedTag
+'(PRN (-LRB- (NP (-RRB-', unclassifiedTag
+'(NP (DT (JJ (NN', unclassifiedTag
+'(NP (NN (CC (NN (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (NNS', unclassifiedTag
+'(NP (NN (NN', unclassifiedTag
+'(NP (JJ (NNS', unclassifiedTag
+'(NP (NP (, (NP (, (NP (, (CC (NP', unclassifiedTag
+'(PP (TO (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VB (CC (VB (NP', unclassifiedTag
+'(VP (TO (VP', unclassifiedTag
+'(S (VP', unclassifiedTag
+'(VP (VBN (S', unclassifiedTag
+'(NP (NP (VP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(NP (NP (PRN', unclassifiedTag
+'(S (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(NP (JJ (NN', unclassifiedTag
+'(NP (PRP$ (NN', unclassifiedTag
+'(NP (DT (JJ (JJ (NNS', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(VP (VBZ (VP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(VP (VP (CC (VP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(S (SBAR (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
+'(NP (DT (NN', unclassifiedTag
+'(NP (DT (JJ (NN (NN', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(NP (JJ (NN', unclassifiedTag
+'(VP (VBZ (NP', unclassifiedTag
+'(VP (VP (CC (VP', unclassifiedTag
+'(S (NP (VP', unclassifiedTag
+'(SBAR (IN (S', unclassifiedTag
+'(NP (PRP$ (NN', unclassifiedTag
+'(NP (DT (JJ (JJ (NNS', unclassifiedTag
+'(PP (IN (NP', unclassifiedTag
+'(VP (VBN (PP', unclassifiedTag
+'(VP (VBZ (VP', unclassifiedTag
+'(S (SBAR (, (NP (VP (.', unclassifiedTag
+'(ROOT (S', unclassifiedTag
