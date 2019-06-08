@@ -69,22 +69,7 @@ public class AutoClassNameMappingGenerator  {
 			                } 			                
 		            		while (!stack.isEmpty()){ // loop though to get a new class name
 				                top=stack.pop();
-				                if(top.indexOf(")")>=0) {
-				                	if(!top.trim().equals(""))
-				                		stack.push(top);
-				                	if(!nodeChildrenString.equals("")) {
-				                		String[] stringArray = nodeChildrenString.split("\\(");
-				                		for(String tempString:stringArray) {
-				                			if(!tempString.trim().equals(""))
-				                				stack.push(tempString);
-				                		}
-				                		if(!token.trim().equals(""))
-				                			stack.push(token);
-				                	}
-				                	
-				                	startProcessingStackElements=true;
-				                	break;
-				                } else if (top.indexOf("(")>=0) { // In this case new class name will be generated
+				                if (top.indexOf("(")>=0) { // In this case new class name will be generated
 				                	nodeChildrenString = " " + top + nodeChildrenString;
 				                	top = top.substring(1); 
 				                	if(!top.trim().equals(""))
@@ -98,19 +83,17 @@ public class AutoClassNameMappingGenerator  {
 				                nodeChildrenString = " (" + top + nodeChildrenString;
 				            }
 
-		            		if(!startProcessingStackElements) {
-		            			System.out.println("nodeChildrenString is "+nodeChildrenString);
-		            			writeToFile(nodeChildrenString);
-		            			String lastElementOfStack = stack.pop();
-		            			while(lastElementOfStack.indexOf(")")>=0) {
-		            				stack.push(lastElementOfStack);
-		            				resolveAllPossibleParentChildrenNodes(stack); //resolve parents to the possible level
-		            				lastElementOfStack = stack.pop();
-		            			} 
-		            			if(lastElementOfStack.indexOf(")")<0){
-		            				stack.push(lastElementOfStack);
-		            			}
-		            		} 		            		
+	            			System.out.println("nodeChildrenString is "+nodeChildrenString);
+	            			writeToFile(nodeChildrenString);
+	            			String lastElementOfStack = stack.pop();
+	            			while(lastElementOfStack.indexOf(")")>=0) {
+	            				stack.push(lastElementOfStack);
+	            				resolveAllPossibleParentChildrenNodes(stack); //resolve parents to the possible level
+	            				lastElementOfStack = stack.pop();
+	            			} 
+	            			if(lastElementOfStack.indexOf(")")<0){
+	            				stack.push(lastElementOfStack);
+	            			}
 		            	} else if(countClosedBrace==1) { //not end of children
 		            		top=stack.pop();
 			                if (top.indexOf("(")>=0) {
